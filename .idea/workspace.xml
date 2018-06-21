@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a1b6262-f704-444e-b57f-1b46222c76cc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/02_the_tour_of_heroes/src/app/hero-detail/hero-detail.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_the_tour_of_heroes/src/app/hero-detail/hero-detail.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_the_tour_of_heroes/src/app/hero-detail/hero-detail.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_the_tour_of_heroes/src/app/hero-detail/hero-detail.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_the_tour_of_heroes/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/02_the_tour_of_heroes/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_the_tour_of_heroes/src/app/heroes/heroes.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_the_tour_of_heroes/src/app/heroes/heroes.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_the_tour_of_heroes/src/app/hero.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_the_tour_of_heroes/src/app/hero.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02_the_tour_of_heroes/src/app/heroes/heroes.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/02_the_tour_of_heroes/src/app/heroes/heroes.component.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,22 +28,35 @@
               <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
-          <file leaf-file-name="heroes.component.ts" pinned="false" current-in-tab="false">
+          <file leaf-file-name="heroes.component.ts" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/02_the_tour_of_heroes/src/app/heroes/heroes.component.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
+                <state relative-caret-position="396">
+                  <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
                   <folding>
-                    <element signature="e#0#50#0" expanded="true" />
+                    <element signature="e#0#48#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="heroes.component.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="heroes.component.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/02_the_tour_of_heroes/src/app/heroes/heroes.component.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+                <state relative-caret-position="153">
+                  <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="hero.service.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/02_the_tour_of_heroes/src/app/hero.service.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+                  <folding>
+                    <element signature="e#0#43#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -59,11 +65,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="hero-detail.component.ts" pinned="false" current-in-tab="false">
+          <file leaf-file-name="hero-detail.component.ts" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/02_the_tour_of_heroes/src/app/hero-detail/hero-detail.component.ts">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="170">
-                  <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+                  <caret line="10" column="15" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="15" />
                   <folding>
                     <element signature="e#0#50#0" expanded="true" />
                   </folding>
@@ -71,7 +77,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="hero-detail.component.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="hero-detail.component.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/02_the_tour_of_heroes/src/app/hero-detail/hero-detail.component.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="68">
@@ -113,6 +119,8 @@
         <option value="$PROJECT_DIR$/02_the_tour_of_heroes/src/app/hero-detail/hero-detail.component.html" />
         <option value="$PROJECT_DIR$/02_the_tour_of_heroes/src/app/hero-detail/hero-detail.component.ts" />
         <option value="$PROJECT_DIR$/02_the_tour_of_heroes/src/app/heroes/heroes.component.html" />
+        <option value="$PROJECT_DIR$/02_the_tour_of_heroes/src/app/hero.service.ts" />
+        <option value="$PROJECT_DIR$/02_the_tour_of_heroes/src/app/heroes/heroes.component.ts" />
       </list>
     </option>
   </component>
@@ -298,12 +306,12 @@
       <workItem from="1529390185994" duration="49000" />
       <workItem from="1529390268088" duration="3050000" />
       <workItem from="1529476534854" duration="974000" />
-      <workItem from="1529565242210" duration="2401000" />
+      <workItem from="1529565242210" duration="4476000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6543000" />
+    <option name="totallyTimeSpent" value="8618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-268" y="-1080" width="1280" height="1080" extended-state="0" />
@@ -318,7 +326,7 @@
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4946752" weight="0.41192412" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.16063139" />
-      <window_info anchor="bottom" x="-281" y="-1080" width="1920" height="1080" id="Terminal" order="11" sideWeight="0.46915352" visible="true" weight="0.39898476" />
+      <window_info active="true" anchor="bottom" x="-281" y="-1080" width="1920" height="1080" id="Terminal" order="11" sideWeight="0.46915352" visible="true" weight="0.39898476" />
       <window_info anchor="bottom" id="TypeScript" order="15" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.1930533" />
@@ -629,9 +637,24 @@
     <entry file="file://$PROJECT_DIR$/02_the_tour_of_heroes/src/styles.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_the_tour_of_heroes/src/app/heroes/heroes.component.ts">
+    <entry file="file://$PROJECT_DIR$/02_the_tour_of_heroes/src/app/hero-detail/hero-detail.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_the_tour_of_heroes/src/app/mock-heroes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_the_tour_of_heroes/src/app/hero-detail/hero-detail.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="15" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
@@ -640,25 +663,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02_the_tour_of_heroes/src/app/heroes/heroes.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="153">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_the_tour_of_heroes/src/app/hero-detail/hero-detail.component.ts">
+    <entry file="file://$PROJECT_DIR$/02_the_tour_of_heroes/src/app/hero.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_the_tour_of_heroes/src/app/hero-detail/hero-detail.component.html">
+    <entry file="file://$PROJECT_DIR$/02_the_tour_of_heroes/src/app/heroes/heroes.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="396">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
